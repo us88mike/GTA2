@@ -7,4 +7,21 @@ function myFunction() {
         x.className = "topnav";
     }
 }
+var intervalId;
 
+function startSlideShow() {
+    intervalId = setInterval(changeImage, 1500);
+}
+
+function stopSlideShow() {
+    clearInterval(intervalId);
+}
+
+function changeImage() {
+    var imageSrc = document.getElementById("image").getAttribute("src");
+    var currentImageNumber = imageSrc.substring(imageSrc.lastIndexOf("/") + 1,imageSrc.lastIndexOf("/") + 2);
+    var newImage = "../ss_images/" + (Number(currentImageNumber) + 1) + ".jpg"
+    // document.getElementById("result").innerHTML = newImage; 
+    document.getElementById("image").setAttribute("src", newImage);
+    
+}
