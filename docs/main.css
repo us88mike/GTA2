@@ -1,7 +1,7 @@
 /* Navigation Menu */
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: aqua;
+    background-color: #96858F;
     overflow: hidden;
 }
 /* Style the links inside the navigation bar */
@@ -21,12 +21,12 @@ h1 {
 }
 /* Change the color of links on hover */
 .topnav a:hover {
-    background-color: blue;
+    background-color: #6d7993;
     color: black;
 }
 /* Add an active class to highlight the current page */
 .active {
-    background-color: yellow;
+    background-color: #d5d5d5;
     color: black;
 }
 /* Hide the link that should open and close the topnav on small screens */
@@ -41,7 +41,7 @@ h1 {
 .flex-grid {
     display: flex;
     flex-wrap: wrap;
-    background-color: aqua;
+    background-color: #d5d5d5;
     padding: 15px;
 }
 .col{
@@ -65,14 +65,14 @@ h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif 
 }
 .services {
-    padding-top: 1rem;
-    background-color: aqua;
+    padding: 1rem;
+    background-color: #9099a2;
 }
 section {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: lightcyan;
+    background-color: #6d7993;
 }
 .media {
     min-width: 100%;
@@ -87,12 +87,12 @@ img {
     display: block;
 }
 .our-staff {
-    background-color: purple;
+    background-color: #6d7993;
 }
 .caption {
-    background-color: purple;
+    background-color: #d5d5d5;
     text-align: center;
-    color: white;
+    color: black;
 }
 .staff, #contact {
     padding: 2rem;
@@ -114,14 +114,14 @@ img {
 
 .button {
     padding: 2rem;
-    background-color: yellow;
+    background-color: #96858F;
     text-align: center;
 }
 
 .button-1 {
     size: 3rem;
-    background-color: black;
-    color: magenta;
+    background-color: #6d7993;
+    color: black;
     padding: 1rem;
 }
 
