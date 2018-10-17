@@ -20,7 +20,7 @@ function stopSlideShow() {
 function changeImage() {
     var imageSrc = document.getElementById("image").getAttribute("src");
     var currentImageNumber = imageSrc.substring(imageSrc.lastIndexOf("/") + 1,imageSrc.lastIndexOf("/") + 2);
-    var newImage = "../ss_images/" + (Number(currentImageNumber) + 1) + ".jpg"
+    var newImage = "ss_images/" + (Number(currentImageNumber) + 1) + ".jpg"
     // document.getElementById("result").innerHTML = newImage; 
     document.getElementById("image").setAttribute("src", newImage);
     
