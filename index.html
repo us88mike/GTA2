@@ -6,10 +6,11 @@
       <title>Garner Tax Associates</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <link href="https://fonts.googleapis.com/css?family=Bubbler+One|Qwigley" rel="stylesheet">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bubbler+One|Qwigley">
       <link rel="stylesheet" type="text/css" media="screen" href="GTA2/main.css" />
    </head>
    <body>
+      <!-- Top Nav and Header -->
       <div class="topnav" id="myTopnav">
          <h1 class="page-title">Garner Tax Associates</h1>
          <a class="nav" href="#home" class="active">Home</a>
@@ -21,9 +22,12 @@
          <i class="fa fa-bars"></i>
          </a>
       </div>
+      <!-- Jar of Coins stretches across the page -->
       <div id="moneyPhoto">
       </div>
+      <!-- Staff Section -->
       <div class="our-staff">
+            <!-- H1 Heading "Our Staff" -->
          <h1 class="staff" id="staff">Our Staff</h1>
          <section>
             <figure class="media">
@@ -40,6 +44,7 @@
             </figure>
          </section>
       </div>
+      <!-- Services Section -->
       <section class="services">
          <h1 id="services">Services</h1>
          <div class="flex-grid">
@@ -57,6 +62,7 @@
             </div>
          </div>
       </section>
+      <!-- Slide-Show Section -->
       <div class="button" id="slideshow">
           <h1>View The Slideshow of Our Working Environment</h1>
      <img src="ss_images/1.jpg" id="image">
@@ -64,19 +70,34 @@
      <input class="button-1" type="button" value="Stop Slide Show" onclick="stopSlideShow()">
      <br>
     </div>
-     <div id="result"></div>
+     <!-- Contact Section -->
       <section>
          <h1 id="contact">Stop in And See Us!</h1>
       </section>
       <section>
+            <!-- Garner Tax Address -->
       <address class="address">
       414 Saluda St<br>
       Rock Hill, SC 29730<br>
       <a href="tel:803-327-1306">Telephone: 803-327-1306</a>
+      <!-- Contact Form Button -->
       <form class="form">
             <input type="button" value="Contact Us" onclick="window.location.href='form.html'">
             </form>
-      <div class="mapouter"><div class="gmap_canvas"><iframe width="350" height="250" id="gmap_canvas" src="https://maps.google.com/maps?q=414%20Saluda%20Street%20Rock%20Hill%20SC&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.pureblack.de"></a></div><style>.mapouter{text-align:right;}.gmap_canvas {overflow:hidden;background:none!important;}</style></div>
+      <!-- Google Map Image -->
+      <div class="mapouter"><div class="gmap_canvas"><iframe width="350" height="250" id="gmap_canvas" src="https://maps.google.com/maps?q=414%20Saluda%20Street%20Rock%20Hill%20SC&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.pureblack.de"></a></div><style>.mapouter{text-align:right;}.gmap_canvas {overflow:hidden;background:none!important;}
+      </style></div>
+      <!-- Social Media Links -->
+      <div>
+            <a href="https://www.facebook.com/pages/Garner-Tax-Associates/136004906449428" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="https://www.google.com/search?rlz=1C5CHFA_enUS813US813&ei=7cjIW_vRGcfr5gKXlJ34DQ&q=garner+tax+associates&oq=garner+tax&gs_l=psy-ab.3.3.35i39l2j0l2j0i20i263j0j0i22i30l3j0i22i10i30.2628.4866..9748...0.0..0.99.829.10......0....1..gws-wiz.......0i71j0i131i67j0i67j0i131j0i131i20i264j0i20i264j0i10.jmYNN921zao" class="fa fa-google"></a>
+      </div>
+      <!-- Sticky Footer -->
+      <div class="footer">
+                  <p>Garner Tax Associates | 414 Saluda Street Rock Hill, South Carolina 29730 | <a href="tel:803-327-1306">Telephone: 803-327-1306</a></p>
+                  <p>&copy; Garner Tax Associates All Rights Reserved | Website by Wes McCawley Web Design</p>
+                </div>
       <script src="GTA2/main.js"></script>
    </body>
 </html>

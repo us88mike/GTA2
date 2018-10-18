@@ -16,7 +16,7 @@
 h1 {
     font-size: 2rem;
     text-align: center;
-    padding: 1rem;
+    padding: .5rem;
     font-family: 'Bubbler One', sans-serif;
 }
 /* Change the color of links on hover */
@@ -33,6 +33,8 @@ h1 {
 .topnav .icon {
     display: none;
 }
+
+
 /* Basic CSS Editing */
 * {
     padding: 0;
@@ -103,7 +105,7 @@ img {
     font-size: 3rem;
 }
 .contact, .page-title, .caption {
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .address {
@@ -140,7 +142,7 @@ img {
 
 .page-title {
     font-family: 'Bubbler One', sans-serif;
-    font-size: 4rem;
+    font-size: 3.5rem;
     color: black;
 }
 
@@ -153,6 +155,48 @@ img {
 .slideshow {
     font-family: 'Bubbler One', sans-serif;
 }
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin-bottom: 50px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #96858F;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+}
+
+
 
 /* Media Queries */
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
@@ -200,7 +244,12 @@ img {
        display: none;
    }
 
+   .footer {
+       font-size: 16px;
+   }
 }
+
+
 /* Images */
 #moneyPhoto {
     padding: 0px;
