@@ -93,6 +93,7 @@ img {
 .caption {
     background-color: #d5d5d5;
     text-align: center;
+    font-size: 1.5rem;
     color: black;
 }
 .staff, #contact {
@@ -117,6 +118,7 @@ img {
     padding: 2rem;
     background-color: #96858F;
     text-align: center;
+    font-size: 1rem;
 }
 
 .button-1 {
@@ -124,6 +126,7 @@ img {
     background-color: #6d7993;
     color: black;
     padding: 1rem;
+    font-size: 1.5rem;
 }
 
 /* Media Queries */
@@ -164,9 +167,6 @@ img {
        display: none;
    }
 
-   #moneyPhoto {
-       background-image: url(michael-longmire-689531-unsplash-mobile.png);
-   }
 }
 /* Images */
 #moneyPhoto {
