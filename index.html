@@ -6,15 +6,17 @@
       <title>Garner Tax Associates</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Bubbler+One|Qwigley" rel="stylesheet">
       <link rel="stylesheet" type="text/css" media="screen" href="GTA2/main.css" />
    </head>
    <body>
       <div class="topnav" id="myTopnav">
          <h1 class="page-title">Garner Tax Associates</h1>
-         <a href="#home" class="active">Home</a>
-         <a href="#staff">Staff</a>
-         <a href="#services">Services</a>
-         <a href="#contact">Contact Us</a>
+         <a class="nav" href="#home" class="active">Home</a>
+         <a class="nav" href="#staff">Staff</a>
+         <a class="nav" href="#services">Services</a>
+         <a class="nav" id="slideshow-1" href="#slideshow">Slide-Show</a>
+         <a class="nav" href="#contact">Contact Us</a>
          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
          <i class="fa fa-bars"></i>
          </a>
@@ -55,7 +57,7 @@
             </div>
          </div>
       </section>
-      <div class="button">
+      <div class="button" id="slideshow">
           <h1>View The Slideshow of Our Working Environment</h1>
      <img src="ss_images/1.jpg" id="image">
      <input class="button-1" type="button" value="Start Slide Show" onclick="startSlideShow()">
@@ -71,10 +73,10 @@
       414 Saluda St<br>
       Rock Hill, SC 29730<br>
       <a href="tel:803-327-1306">Telephone: 803-327-1306</a>
-      <form>
+      <form class="form">
             <input type="button" value="Contact Us" onclick="window.location.href='form.html'">
             </form>
-      <div class="mapouter"><div class="gmap_canvas"><iframe width="712" height="488" id="gmap_canvas" src="https://maps.google.com/maps?q=414%20Saluda%20Street%20Rock%20Hill%20SC&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.pureblack.de">website erstellen lassen</a></div><style>.mapouter{text-align:right;height:488px;width:712px;}.gmap_canvas {overflow:hidden;background:none!important;height:488px;width:712px;}</style></div>
+      <div class="mapouter"><div class="gmap_canvas"><iframe width="350" height="250" id="gmap_canvas" src="https://maps.google.com/maps?q=414%20Saluda%20Street%20Rock%20Hill%20SC&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.pureblack.de"></a></div><style>.mapouter{text-align:right;}.gmap_canvas {overflow:hidden;background:none!important;}</style></div>
       <script src="GTA2/main.js"></script>
    </body>
 </html>
