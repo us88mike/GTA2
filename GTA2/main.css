@@ -42,14 +42,15 @@ h1 {
 }
 .flex-grid {
     display: flex;
-    display: -ms-flexbox;
     flex-wrap: wrap;
-    background-color: #d5d5d5;
     padding: 15px;
 }
 .col{
     flex: 1;
     margin: 10px;
+    background-color: #d5d5d5;
+    padding: 18px;
+    text-align: justify;
 }
 .div col {
     border: 1px black;
