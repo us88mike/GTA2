@@ -36,41 +36,42 @@ h1 {
 
 
 /* Basic CSS Editing */
-* {
+/* * {
     padding: 0;
-    margin: 0;
+    margin: 0; */
 }
-.flex-grid {
+/* .flex-grid {
+    display: -ms-flexbox;
     display: flex;
     flex-wrap: wrap;
     background-color: #d5d5d5;
     padding: 15px;
-}
-.col{
+} */
+/* .col{
     flex: 1;
     margin: 10px;
-}
-.div col {
+} */
+/* .div col {
     border: 1px black;
-}
-.flex-grid-thirds {
+} */
+/* .flex-grid-thirds {
     display: flex;
     justify-content: space-between;
 }
 .flex-grid-thirds .col {
     width: 32%;
-}
-h3 {
+} */
+/* h3 {
     padding-bottom: 1rem;
     padding-top: 1rem;
     text-align: center;
     font-family: 'Bubbler One', sans-serif;
-}
-.services {
+} */
+/* .services {
     padding: 1rem;
     background-color: #9099a2;
     font-family: 'Bubbler One', sans-serif;
-}
+} */
 section {
     display: flex;
     justify-content: center;
