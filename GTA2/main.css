@@ -42,6 +42,7 @@ h1 {
 }
 .flex-grid {
     display: flex;
+    display: -ms-flexbox;
     flex-wrap: wrap;
     background-color: #d5d5d5;
     padding: 15px;
