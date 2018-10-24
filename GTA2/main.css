@@ -10,7 +10,7 @@
     display: block;
     color: black;
     text-align: center;
-    padding: .65rem .65rem;
+    padding: .75rem .75rem;
     text-decoration: none;
 }
 h1 {
@@ -222,6 +222,7 @@ img {
         float: none;
         display: block;
         text-align: left;
+        padding: .65rem .65rem;
    }
     .flex-grid {
         display: block;
