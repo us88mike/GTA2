@@ -222,6 +222,7 @@ img {
         float: none;
         display: block;
         text-align: left;
+        padding: .25rem .25rem;
    }
     .flex-grid {
         display: block;
