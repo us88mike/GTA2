@@ -7,6 +7,8 @@ function myFunction() {
         x.className = "topnav";
     }
 }
+
+// Slide Show Script 
 var intervalId;
 
 function startSlideShow() {
