@@ -24,11 +24,7 @@ h1 {
     background-color: #6d7993;
     color: black;
 }
-/* Add an active class to highlight the current page */
-.active {
-    background-color: #d5d5d5;
-    color: black;
-}
+
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
     display: none;
@@ -52,16 +48,7 @@ h1 {
     padding: 18px;
     text-align: justify;
 }
-.div col {
-    border: 1px black;
-}
-.flex-grid-thirds {
-    display: flex;
-    justify-content: space-between;
-}
-.flex-grid-thirds .col {
-    width: 32%;
-}
+
 h3 {
     padding-bottom: 1rem;
     padding-top: 1rem;
@@ -151,10 +138,6 @@ img {
     font-family: 'Bubbler One', sans-serif;
     font-size: 1.25rem;
     font-weight: bold;
-}
-
-.slideshow {
-    font-family: 'Bubbler One', sans-serif;
 }
 
 .fa {
