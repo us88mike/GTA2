@@ -39,13 +39,13 @@ h1 {
 .flex-grid {
     display: flex;
     flex-wrap: wrap;
-    padding: 15px;
+    padding: 30px;
 }
 .col{
     flex: 1;
     margin: 10px;
     background-color: #d5d5d5;
-    padding: 18px;
+    padding: 10px;
     text-align: justify;
 }
 
@@ -85,12 +85,11 @@ img {
     font-size: 1.5rem;
     color: black;
     font-family: 'Bubbler One', sans-serif;
+    padding: .5rem;
 }
 .staff, #contact {
     padding: 2rem;
-}
-.caption {
-    padding: 1rem;
+    padding-bottom: 0;
 }
 
 .address {
